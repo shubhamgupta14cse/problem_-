@@ -8,7 +8,7 @@
 
 function mergeArarys(keys, value) {
   var obj = {};
-  if (keys.length !== value.length) return;
+  if (keys.length !== value.length) return 'inconsistent_length';
 
   keys.map(( key, index, keys ) => {
     if (obj.hasOwnProperty(key) ) {
