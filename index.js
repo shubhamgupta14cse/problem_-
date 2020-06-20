@@ -2,7 +2,7 @@
 // assign an object for the key value and return
 // check if the key already exist retyur an array
 
-//BCR log(n)
+//BCR O(n)
 
 // lets do it by brute approach firsrt and later optimise
 
